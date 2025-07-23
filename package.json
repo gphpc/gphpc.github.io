@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -p 8000 -o"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/recrash/recrash.github.io/issues"
   },
-  "homepage": "https://github.com/recrash/recrash.github.io#readme"
+  "homepage": "https://github.com/recrash/recrash.github.io#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.58",
+    "sass": "^1.89.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
